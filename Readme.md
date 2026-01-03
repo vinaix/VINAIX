@@ -3,7 +3,7 @@
 
 <p align="center">
   Passionate about AI, backend systems, and real-world automation.<br>
-  I’ve got ADHD — obsession is my superpower, and I build like it.
+  
 </p>
 
 <p align="center"> 
