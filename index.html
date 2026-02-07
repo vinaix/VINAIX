@@ -151,20 +151,23 @@
       z-index: -1;
     }
 
- .hero-image img {
+.hero-image img {
   width: 100%;
   height: 540px;
   object-fit: cover;
   border-radius: 28px;
 
-  /* dissolve edges */
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  /* dissolve edges on all four sides */
+  -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
 
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
   mask-repeat: no-repeat;
   mask-size: cover;
+
+  /* subtle shadow for depth */
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
 
